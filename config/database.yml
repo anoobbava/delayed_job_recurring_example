@@ -1,0 +1,13 @@
+base: &base
+  adapter: mysql2
+  socket: /var/run/mysqld/mysqld.sock
+  username: root
+  password: root
+
+development:
+  database: user_clone_dev
+  <<: *base
+
+test:
+  database: user_clone_test
+  <<: *base

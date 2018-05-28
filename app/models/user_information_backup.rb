@@ -1,0 +1,2 @@
+class UserInformationBackup < ApplicationRecord
+end

@@ -2,7 +2,6 @@ class UsersController < ApplicationController
 
 
   def new
-    # binding.pry
     @user = UserInformation.new
   end
 
@@ -18,6 +17,10 @@ class UsersController < ApplicationController
     else
       render 'new'
     end
+  end
+
+  def display_backup
+    @users = UserInformation.all.where(is_selected: false)
   end
 
   private

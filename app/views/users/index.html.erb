@@ -1,0 +1,8 @@
+<h3>Weclome to user information</h3>
+<%=link_to 'New User information', new_user_path%>
+<br/>
+<%@users.each do |user|%>
+   first Name<%=user.first_name%><br/>
+   last Name<%=user.last_name%><br/>
+   secret <%=user.secret_message%><br/>
+<%end%>

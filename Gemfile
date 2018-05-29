@@ -32,6 +32,11 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'activerecord-import', '~> 0.23.0'
+gem 'delayed_job', '~> 4.1', '>= 4.1.5'
+gem 'delayed_job_active_record'
+gem 'delayed_job_recurring', '~> 0.3.7'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

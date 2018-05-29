@@ -20,7 +20,7 @@ class UsersController < ApplicationController
   end
 
   def display_backup
-    @users = UserInformation.all.where(is_selected: false)
+    @users = UserInformationBackup.all
   end
 
   private

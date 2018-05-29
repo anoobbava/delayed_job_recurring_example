@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is only a sample app to demonstrate the delayed_job_recurring example.
 
-Things you may want to cover:
+thanks for the gem creator
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+(link to source of the gem)[https://github.com/amitree/delayed_job_recurring]
